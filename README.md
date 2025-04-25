@@ -45,26 +45,4 @@ As informações mostradas são:
 6. Leia os valores no display.
 
 ## 📷 Imagens 
-4. O valor é normalizado e comparado com os valores da série E24.
-5. As faixas de cores são determinadas a partir dos dígitos do valor estimado.
-
-## 🖥️ Display OLED
-
-As informações mostradas são:
-
-- Valor ADC médio
-- Resistência medida
-- Valor estimado da série E24
-- Três faixas de cor que representariam o resistor equivalente
-
-## 🚀 Como usar
-
-1. Monte o circuito conforme o esquema do divisor de tensão.
-2. Conecte o display OLED nas portas I2C (GPIO 14 e 15).
-3. Grave o código no Pico.
-4. Coloque o resistor a ser medido.
-5. Pressione o botão A (caso necessário).
-6. Leia os valores no display.
-
-## 📷 Imagens (opcional)
 <img src="imagens/img.jpg">
