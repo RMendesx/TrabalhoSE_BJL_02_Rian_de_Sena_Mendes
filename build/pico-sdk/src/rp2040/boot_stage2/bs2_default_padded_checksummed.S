@@ -1,4 +1,4 @@
-// Padded and checksummed version of: C:/Users/rian_/EmbarcaTechResU1RevOhm/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
+// Padded and checksummed version of: C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/pico-sdk/src/rp2040/boot_stage2/bs2_default.bin
 
 .cpu cortex-m0plus
 .thumb

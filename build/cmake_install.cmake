@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/rian_/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes
+# Install script for directory: C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -39,14 +39,14 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
-  include("C:/Users/rian_/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/pico-sdk/cmake_install.cmake")
+  include("C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/pico-sdk/cmake_install.cmake")
 
 endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
 if(CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/rian_/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/install_local_manifest.txt"
+  file(WRITE "C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/install_local_manifest.txt"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()
 if(CMAKE_INSTALL_COMPONENT)
@@ -62,6 +62,6 @@ else()
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
-  file(WRITE "C:/Users/rian_/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/${CMAKE_INSTALL_MANIFEST}"
+  file(WRITE "C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")
 endif()

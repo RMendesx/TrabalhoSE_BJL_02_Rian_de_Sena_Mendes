@@ -1,14 +1,3 @@
-/*
- * Por: Wilton Lacerda Silva
- *    Ohmímetro utilizando o ADC da BitDogLab
- *
- * 
- * Neste exemplo, utilizamos o ADC do RP2040 para medir a resistência de um resistor
- * desconhecido, utilizando um divisor de tensão com dois resistores.
- * O resistor conhecido é de 10k ohm e o desconhecido é o que queremos medir.
- *
- */
-
 #include <stdio.h>
 #include <stdlib.h>
 #include "pico/stdlib.h"
@@ -16,6 +5,7 @@
 #include "hardware/i2c.h"
 #include "lib/ssd1306.h"
 #include "lib/font.h"
+#include <math.h>
 #define I2C_PORT i2c1
 #define I2C_SDA 14
 #define I2C_SCL 15
@@ -35,6 +25,12 @@ void gpio_irq_handler(uint gpio, uint32_t events)
 {
   reset_usb_boot(0, 0);
 }
+
+float e24_values[] = {
+    1.0, 1.1, 1.2, 1.3, 1.5, 1.6, 1.8, 2.0,
+    2.2, 2.4, 2.7, 3.0, 3.3, 3.6, 3.9, 4.3,
+    4.7, 5.1, 5.6, 6.2, 6.8, 7.5, 8.2, 9.1};
+int e24_count = sizeof(e24_values) / sizeof(float);
 
 int main()
 {
@@ -85,26 +81,78 @@ int main()
     }
     float media = soma / 500.0f;
 
-      // Fórmula simplificada: R_x = R_conhecido * ADC_encontrado /(ADC_RESOLUTION - adc_encontrado)
-      R_x = (R_conhecido * media) / (ADC_RESOLUTION - media);
+    // Fórmula simplificada: R_x = R_conhecido * ADC_encontrado /(ADC_RESOLUTION - adc_encontrado)
+    R_x = (R_conhecido * media) / (ADC_RESOLUTION - media);
 
     sprintf(str_x, "%1.0f", media); // Converte o inteiro em string
     sprintf(str_y, "%1.0f", R_x);   // Converte o float em string
 
     // cor = !cor;
     //  Atualiza o conteúdo do display com animações
-    ssd1306_fill(&ssd, !cor);                          // Limpa o display
-    ssd1306_rect(&ssd, 3, 3, 122, 60, cor, !cor);      // Desenha um retângulo
-    ssd1306_draw_string(&ssd, "ADC", 9, 5);          // Desenha uma string
-    ssd1306_draw_string(&ssd, "Resisten.", 47, 5);    // Desenha uma string
-    ssd1306_draw_string(&ssd, str_x, 9, 13);           // Desenha uma string
-    ssd1306_draw_string(&ssd, str_y, 47, 13);          // Desenha uma string
-    ssd1306_line(&ssd, 3, 21, 123, 21, cor);           // Desenha uma linha
-    ssd1306_line(&ssd, 41, 4, 41, 20, cor);           // Desenha uma linha vertical
-    
+    ssd1306_fill(&ssd, !cor);                      // Limpa o display
+    ssd1306_rect(&ssd, 3, 3, 122, 60, cor, !cor);  // Desenha um retângulo
+    ssd1306_draw_string(&ssd, "ADC", 9, 5);        // Desenha uma string
+    ssd1306_draw_string(&ssd, "Resisten.", 47, 5); // Desenha uma string
+    ssd1306_draw_string(&ssd, str_x, 9, 13);       // Desenha uma string
+    ssd1306_draw_string(&ssd, str_y, 47, 13);      // Desenha uma string
+    ssd1306_line(&ssd, 3, 21, 123, 21, cor);       // Desenha uma linha
+    ssd1306_line(&ssd, 41, 4, 41, 20, cor);        // Desenha uma linha vertical
 
+    // Valor real lido
+    float log_val_real = log10(R_x);
 
-    ssd1306_send_data(&ssd);                           // Atualiza o display
+    // Encontra o valor E24 mais próximo
+    float melhor_valor = 0;
+    float menor_dif = 1e6;
+    for (int pot = 0; pot <= 6; pot++)
+    {
+      for (int i = 0; i < e24_count; i++)
+      {
+        float valor_e24 = e24_values[i] * pow(10, pot);
+        float dif = fabs(R_x - valor_e24);
+        if (dif < menor_dif)
+        {
+          menor_dif = dif;
+          melhor_valor = valor_e24;
+        }
+      }
+    }
+
+    int valor = round(melhor_valor);
+
+    // Agora convertemos para string e analisamos os dígitos
+    char valor_str[6];
+    sprintf(valor_str, "%d", valor);
+
+    int len = strlen(valor_str);
+    char faixa1 = '0', faixa2 = '0', faixa3 = '0';
+
+    if (len >= 2)
+    {
+      faixa1 = valor_str[0];
+      faixa2 = valor_str[1];
+      faixa3 = (len - 2) + '0'; // Ex: "4700" → faixa3 = '2'
+    }
+
+    // Mapeamento para as cores
+    const char *cores[] = {
+        "PRETO", "MARROM", "VERMELHO", "LARANJA", "AMARELO",
+        "VERDE", "AZUL", "VIOLETA", "CINZA", "BRANCO"};
+
+    const char *cor1 = cores[faixa1 - '0'];
+    const char *cor2 = cores[faixa2 - '0'];
+    const char *cor3 = cores[faixa3 - '0'];
+
+    // Mostra as cores no display
+    ssd1306_draw_string(&ssd, cor1, 9, 30);
+    ssd1306_draw_string(&ssd, cor2, 9, 39);
+    ssd1306_draw_string(&ssd, cor3, 9, 48);
+
+    ssd1306_draw_string(&ssd, cor1, 9, 30);
+    ssd1306_draw_string(&ssd, cor2, 9, 39);
+    ssd1306_draw_string(&ssd, cor3, 9, 48);
+
+    ssd1306_send_data(&ssd); // Atualiza o display
     sleep_ms(700);
   }
 }
