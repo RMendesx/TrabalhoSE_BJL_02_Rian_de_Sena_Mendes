@@ -12572,7 +12572,7 @@ Disassembly of section .data:
 2000039c:	00000fff                                ....
 
 200003a0 <R_conhecido>:
-200003a0:	00002710                                .'..
+200003a0:	00002648                                H&..
 
 200003a4 <striped_spin_lock_num>:
 200003a4:	00000010                                ....
