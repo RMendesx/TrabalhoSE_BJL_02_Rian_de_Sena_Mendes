@@ -3104,7 +3104,7 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x10000100                        __boot2_end__ = .
                 0x00000001                        ASSERT (((__boot2_end__ - __boot2_start__) == 0x100), ERROR: Pico second stage bootloader must be 256 bytes in size)
 
-.text           0x10000100     0x6274
+.text           0x10000100     0x62bc
                 0x10000100                        __logical_binary_start = .
  *(.vectors)
  .vectors       0x10000100       0xd4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
@@ -3173,426 +3173,425 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x100002d4        0xc CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
                 0x100002d4                gpio_irq_handler
  .text.startup.main
-                0x100002e0      0x408 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+                0x100002e0      0x454 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
                 0x100002e0                main
  .text.ssd1306_init
-                0x100006e8       0x34 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x100006e8                ssd1306_init
+                0x10000734       0x34 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x10000734                ssd1306_init
  .text.ssd1306_config
-                0x1000071c      0x1d0 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x1000071c                ssd1306_config
+                0x10000768      0x1d0 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x10000768                ssd1306_config
  .text.ssd1306_send_data
-                0x100008ec       0x8c CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x100008ec                ssd1306_send_data
+                0x10000938       0x8c CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x10000938                ssd1306_send_data
  .text.ssd1306_fill
-                0x10000978       0x7c CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x10000978                ssd1306_fill
+                0x100009c4       0x7c CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x100009c4                ssd1306_fill
  .text.ssd1306_rect
-                0x100009f4      0x278 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x100009f4                ssd1306_rect
+                0x10000a40      0x278 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x10000a40                ssd1306_rect
  .text.ssd1306_line
-                0x10000c6c      0x158 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x10000c6c                ssd1306_line
+                0x10000cb8      0x158 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x10000cb8                ssd1306_line
  .text.ssd1306_draw_char
-                0x10000dc4      0x20c CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x10000dc4                ssd1306_draw_char
+                0x10000e10      0x20c CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x10000e10                ssd1306_draw_char
  .text.ssd1306_draw_string
-                0x10000fd0       0x40 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
-                0x10000fd0                ssd1306_draw_string
+                0x1000101c       0x40 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x1000101c                ssd1306_draw_string
  .text.gpio_default_irq_handler
-                0x10001010      0x2c8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x1000105c      0x2c8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
  .text.gpio_set_function
-                0x100012d8       0x34 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x100012d8                gpio_set_function
+                0x10001324       0x34 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001324                gpio_set_function
  .text.gpio_set_pulls
-                0x1000130c       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000130c                gpio_set_pulls
+                0x10001358       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001358                gpio_set_pulls
  .text.gpio_set_irq_enabled_with_callback
-                0x10001334       0xd0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10001334                gpio_set_irq_enabled_with_callback
+                0x10001380       0xd0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001380                gpio_set_irq_enabled_with_callback
  .text.gpio_set_input_enabled
-                0x10001404       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x10001404                gpio_set_input_enabled
+                0x10001450       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001450                gpio_set_input_enabled
  .text.gpio_init
-                0x1000142c       0x40 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
-                0x1000142c                gpio_init
- .text.panic    0x1000146c       0x30 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
-                0x1000146c                panic
+                0x10001478       0x40 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x10001478                gpio_init
+ .text.panic    0x100014b8       0x30 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x100014b8                panic
  .text.hw_claim_or_assert
-                0x1000149c       0x44 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
-                0x1000149c                hw_claim_or_assert
+                0x100014e8       0x44 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x100014e8                hw_claim_or_assert
  .text.next_striped_spin_lock_num
-                0x100014e0       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
-                0x100014e0                next_striped_spin_lock_num
+                0x1000152c       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x1000152c                next_striped_spin_lock_num
  .text.spin_locks_reset
-                0x100014f8       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
-                0x100014f8                spin_locks_reset
+                0x10001544       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x10001544                spin_locks_reset
  .text.runtime_init_per_core_irq_priorities
-                0x10001514       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001514                runtime_init_per_core_irq_priorities
+                0x10001560       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001560                runtime_init_per_core_irq_priorities
  .text.irq_set_enabled
-                0x10001538       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001538                irq_set_enabled
+                0x10001584       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x10001584                irq_set_enabled
  .text.irq_set_exclusive_handler
-                0x1000155c       0x54 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x1000155c                irq_set_exclusive_handler
+                0x100015a8       0x54 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100015a8                irq_set_exclusive_handler
  .text.irq_add_shared_handler
-                0x100015b0      0x1f4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100015b0                irq_add_shared_handler
+                0x100015fc      0x1f4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100015fc                irq_add_shared_handler
  .text.irq_remove_handler
-                0x100017a4      0x1d4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x100017a4                irq_remove_handler
+                0x100017f0      0x1d4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100017f0                irq_remove_handler
  .text.irq_add_tail_to_free_list
-                0x10001978       0xb4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10001978                irq_add_tail_to_free_list
+                0x100019c4       0xb4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100019c4                irq_add_tail_to_free_list
  .text.lock_init
-                0x10001a2c       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
-                0x10001a2c                lock_init
+                0x10001a78       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+                0x10001a78                lock_init
  .text.runtime_init_mutex
-                0x10001a3c       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
-                0x10001a3c                runtime_init_mutex
+                0x10001a88       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x10001a88                runtime_init_mutex
  .text.sleep_until_callback
-                0x10001a8c       0x30 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001ad8       0x30 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .text.alarm_pool_irq_handler
-                0x10001abc      0x300 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001b08      0x300 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .text.runtime_init_default_alarm_pool
-                0x10001dbc       0xdc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001dbc                runtime_init_default_alarm_pool
+                0x10001e08       0xdc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001e08                runtime_init_default_alarm_pool
  .text.alarm_pool_add_alarm_at_force_in_context
-                0x10001e98       0xb0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001e98                alarm_pool_add_alarm_at_force_in_context
+                0x10001ee4       0xb0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001ee4                alarm_pool_add_alarm_at_force_in_context
  .text.alarm_pool_cancel_alarm
-                0x10001f48       0x74 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001f48                alarm_pool_cancel_alarm
+                0x10001f94       0x74 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10001f94                alarm_pool_cancel_alarm
  .text.sleep_ms
-                0x10001fbc       0xfc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10001fbc                sleep_ms
+                0x10002008       0xfc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10002008                sleep_ms
  .text.best_effort_wfe_or_timeout
-                0x100020b8      0x10c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x100020b8                best_effort_wfe_or_timeout
+                0x10002104      0x10c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x10002104                best_effort_wfe_or_timeout
  .text.timer_hardware_alarm_claim
-                0x100021c4       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021c4                timer_hardware_alarm_claim
+                0x10002210       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002210                timer_hardware_alarm_claim
  .text.timer_time_us_64
-                0x100021d8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021d8                timer_time_us_64
+                0x10002224       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002224                timer_time_us_64
  .text.time_us_64
-                0x100021e8       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021e8                time_us_64
+                0x10002234       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002234                time_us_64
  .text.busy_wait_until
-                0x100021fc       0x20 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
-                0x100021fc                busy_wait_until
+                0x10002248       0x20 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x10002248                busy_wait_until
  .text.clock_configure_int_divider
-                0x1000221c       0xf4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x1000221c                clock_configure_int_divider
+                0x10002268       0xf4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002268                clock_configure_int_divider
  .text.clock_configure_undivided
-                0x10002310       0xe8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x10002310                clock_configure_undivided
+                0x1000235c       0xe8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x1000235c                clock_configure_undivided
  .text.clock_get_hz
-                0x100023f8        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
-                0x100023f8                clock_get_hz
+                0x10002444        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x10002444                clock_get_hz
  .text.pll_init
-                0x10002404       0xa4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
-                0x10002404                pll_init
+                0x10002450       0xa4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x10002450                pll_init
  .text.tick_start
-                0x100024a8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
-                0x100024a8                tick_start
+                0x100024f4       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x100024f4                tick_start
  .text.rom_func_lookup
-                0x100024b8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100024b8                rom_func_lookup
+                0x10002504       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002504                rom_func_lookup
  .text.rom_data_lookup
-                0x100024c8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100024c8                rom_data_lookup
+                0x10002514       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002514                rom_data_lookup
  .text.rom_funcs_lookup
-                0x100024d8       0x44 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x100024d8                rom_funcs_lookup
+                0x10002524       0x44 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002524                rom_funcs_lookup
  .text.rom_reset_usb_boot
-                0x1000251c       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
-                0x1000251c                rom_reset_usb_boot
+                0x10002568       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x10002568                rom_reset_usb_boot
  .text.xosc_init
-                0x10002538       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
-                0x10002538                xosc_init
+                0x10002584       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x10002584                xosc_init
  .text.first_per_core_initializer
-                0x10002560        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100025ac        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .text.hard_assertion_failure
-                0x10002564        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002564                hard_assertion_failure
+                0x100025b0        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100025b0                hard_assertion_failure
  .text.runtime_run_initializers
-                0x10002570       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10002570                runtime_run_initializers
+                0x100025bc       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100025bc                runtime_run_initializers
  .text.runtime_init_early_resets
-                0x10002598       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002598                runtime_init_early_resets
+                0x100025e4       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100025e4                runtime_init_early_resets
  .text.runtime_init_usb_power_down
-                0x100025c4       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100025c4                runtime_init_usb_power_down
+                0x10002610       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002610                runtime_init_usb_power_down
  .text.runtime_init_post_clock_resets
-                0x100025e0       0x20 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x100025e0                runtime_init_post_clock_resets
+                0x1000262c       0x20 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000262c                runtime_init_post_clock_resets
  .text.runtime_init_rp2040_gpio_ie_disable
-                0x10002600       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002600                runtime_init_rp2040_gpio_ie_disable
+                0x1000264c       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000264c                runtime_init_rp2040_gpio_ie_disable
  .text.runtime_init_spin_locks_reset
-                0x10002614        0x8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10002614                runtime_init_spin_locks_reset
+                0x10002660        0x8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002660                runtime_init_spin_locks_reset
  .text.runtime_init_install_ram_vector_table
-                0x1000261c       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000261c                runtime_init_install_ram_vector_table
+                0x10002668       0x1c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10002668                runtime_init_install_ram_vector_table
  .text.runtime_init_clocks
-                0x10002638       0xd8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
-                0x10002638                runtime_init_clocks
- .text          0x10002710       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10002684       0xd8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x10002684                runtime_init_clocks
+ .text          0x1000275c       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .text.__wrap___aeabi_idiv
-                0x10002720       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10002720                __wrap___aeabi_idivmod
-                0x10002720                divmod_s32s32
-                0x10002720                div_s32s32
-                0x10002720                __wrap___aeabi_idiv
-                0x10002728                divmod_s32s32_unsafe
-                0x10002754                divmod_s32s32_savestate
+                0x1000276c       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x1000276c                __wrap___aeabi_idivmod
+                0x1000276c                divmod_s32s32
+                0x1000276c                div_s32s32
+                0x1000276c                __wrap___aeabi_idiv
+                0x10002774                divmod_s32s32_unsafe
+                0x100027a0                divmod_s32s32_savestate
  .text.__wrap___aeabi_uidiv
-                0x10002770       0x4c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x10002770                __wrap___aeabi_uidiv
-                0x10002770                __wrap___aeabi_uidivmod
-                0x10002770                div_u32u32
-                0x10002770                divmod_u32u32
-                0x10002778                divmod_u32u32_unsafe
-                0x100027a0                divmod_u32u32_savestate
+                0x100027bc       0x4c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x100027bc                __wrap___aeabi_uidiv
+                0x100027bc                __wrap___aeabi_uidivmod
+                0x100027bc                div_u32u32
+                0x100027bc                divmod_u32u32
+                0x100027c4                divmod_u32u32_unsafe
+                0x100027ec                divmod_u32u32_savestate
  .text.__wrap___aeabi_ldiv
-                0x100027bc      0x424 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
-                0x100027bc                div_s64s64
-                0x100027bc                divmod_s64s64
-                0x100027bc                __wrap___aeabi_ldivmod
-                0x100027ec                divmod_u64u64
-                0x100027ec                div_u64u64
-                0x100027ec                __wrap___aeabi_uldivmod
-                0x100027fc                divmod_u64u64_savestate
-                0x1000281c                divmod_s64s64_unsafe
-                0x100028a4                divmod_u64u64_unsafe
+                0x10002808      0x424 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+                0x10002808                div_s64s64
+                0x10002808                divmod_s64s64
+                0x10002808                __wrap___aeabi_ldivmod
+                0x10002838                divmod_u64u64
+                0x10002838                div_u64u64
+                0x10002838                __wrap___aeabi_uldivmod
+                0x10002848                divmod_u64u64_savestate
+                0x10002868                divmod_s64s64_unsafe
+                0x100028f0                divmod_u64u64_unsafe
  .text.__wrap___aeabi_darithmetic
-                0x10002be0       0x60 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002be0                __wrap___aeabi_drsub
-                0x10002be6                __wrap___aeabi_dsub
-                0x10002bf0                __wrap___aeabi_dadd
-                0x10002bfa                __wrap___aeabi_ddiv
-                0x10002c2e                __wrap___aeabi_dmul
+                0x10002c2c       0x60 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002c2c                __wrap___aeabi_drsub
+                0x10002c32                __wrap___aeabi_dsub
+                0x10002c3c                __wrap___aeabi_dadd
+                0x10002c46                __wrap___aeabi_ddiv
+                0x10002c7a                __wrap___aeabi_dmul
  .text.__wrap___aeabi_cdcmple
-                0x10002c40       0x6c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002c40                __wrap___aeabi_cdrcmple
-                0x10002c50                __wrap___aeabi_cdcmpeq
-                0x10002c50                __wrap___aeabi_cdcmple
+                0x10002c8c       0x6c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002c8c                __wrap___aeabi_cdrcmple
+                0x10002c9c                __wrap___aeabi_cdcmpeq
+                0x10002c9c                __wrap___aeabi_cdcmple
  .text.__wrap___aeabi_dcmpeq
-                0x10002cac       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002cac                __wrap___aeabi_dcmpeq
+                0x10002cf8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002cf8                __wrap___aeabi_dcmpeq
  .text.__wrap___aeabi_dcmplt
-                0x10002cbc        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002cbc                __wrap___aeabi_dcmplt
+                0x10002d08        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d08                __wrap___aeabi_dcmplt
  .text.__wrap___aeabi_dcmple
-                0x10002cc8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002cc8                __wrap___aeabi_dcmple
+                0x10002d14       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d14                __wrap___aeabi_dcmple
  .text.__wrap___aeabi_dcmpge
-                0x10002cd8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002cd8                __wrap___aeabi_dcmpge
+                0x10002d24       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d24                __wrap___aeabi_dcmpge
  .text.__wrap___aeabi_dcmpgt
-                0x10002ce8        0xa CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002ce8                __wrap___aeabi_dcmpgt
+                0x10002d34        0xa CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d34                __wrap___aeabi_dcmpgt
  .text.__wrap___aeabi_dcmpun
-                0x10002cf2       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002cf2                __wrap___aeabi_dcmpun
- *fill*         0x10002d0a        0x2 
+                0x10002d3e       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d3e                __wrap___aeabi_dcmpun
+ *fill*         0x10002d56        0x2 
  .text.__wrap___aeabi_i2d
-                0x10002d0c       0x38 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d0c                uint2double
-                0x10002d0c                __wrap___aeabi_ui2d
-                0x10002d14                int2double
-                0x10002d14                __wrap___aeabi_i2d
+                0x10002d58       0x38 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d58                uint2double
+                0x10002d58                __wrap___aeabi_ui2d
+                0x10002d60                int2double
+                0x10002d60                __wrap___aeabi_i2d
  .text.__wrap___aeabi_d2iz
-                0x10002d44       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d44                double2int_z
-                0x10002d44                __wrap___aeabi_d2iz
+                0x10002d90       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002d90                double2int_z
+                0x10002d90                __wrap___aeabi_d2iz
  .text.__wrap___aeabi_d2uiz
-                0x10002d8c       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d8c                double2uint
-                0x10002d8c                __wrap___aeabi_d2uiz
-                0x10002d8c                double2uint_z
+                0x10002dd8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002dd8                double2uint
+                0x10002dd8                __wrap___aeabi_d2uiz
+                0x10002dd8                double2uint_z
  .text.__wrap___aeabi_d2f
-                0x10002d9c       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002d9c                __wrap___aeabi_d2f
+                0x10002de8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002de8                __wrap___aeabi_d2f
  .text.__wrap_exp
-                0x10002dac       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002dac                __wrap_exp
+                0x10002df8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002df8                __wrap_exp
  .text.__wrap_log
-                0x10002dbc       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
-                0x10002dbc                __wrap_log
+                0x10002e08       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10002e08                __wrap_log
  .text.missing_double_func_shim
-                0x10002dcc        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10002e18        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .text.__aeabi_double_init
-                0x10002dd8       0xa0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
-                0x10002dd8                __aeabi_double_init
- .text.dpow_1   0x10002e78      0x2a0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x10002e24       0xa0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x10002e24                __aeabi_double_init
+ .text.dpow_1   0x10002ec4      0x2a0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
  .text.dpow_int2
-                0x10003118       0xd8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
- .text.dpow_0   0x100031f0      0x16c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x10003164       0xd8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+ .text.dpow_0   0x1000323c      0x16c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
  .text.__wrap_ldexp
-                0x1000335c       0x4c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
-                0x1000335c                __wrap_ldexp
+                0x100033a8       0x4c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x100033a8                __wrap_ldexp
  .text.__wrap_round
-                0x100033a8       0x9c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
-                0x100033a8                __wrap_round
+                0x100033f4       0x9c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x100033f4                __wrap_round
  .text.__wrap_exp2
-                0x10003444       0xbc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
-                0x10003444                __wrap_exp2
+                0x10003490       0xbc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x10003490                __wrap_exp2
  .text.__wrap_log10
-                0x10003500       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
-                0x10003500                __wrap_log10
+                0x1000354c       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x1000354c                __wrap_log10
  .text.__wrap_pow
-                0x10003518      0x328 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
-                0x10003518                __wrap_pow
+                0x10003564      0x328 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x10003564                __wrap_pow
  .text.double_table_shim_on_use_helper
-                0x10003840       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
-                0x10003840                double_table_shim_on_use_helper
+                0x1000388c       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+                0x1000388c                double_table_shim_on_use_helper
  .text.__aeabi_lmul
-                0x1000386c       0x32 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
-                0x1000386c                __wrap___aeabi_lmul
- *fill*         0x1000389e        0x2 
+                0x100038b8       0x32 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+                0x100038b8                __wrap___aeabi_lmul
+ *fill*         0x100038ea        0x2 
  .text.__wrap___aeabi_farithmetic
-                0x100038a0       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x100038a0                __wrap___aeabi_frsub
-                0x100038a6                __wrap___aeabi_fsub
-                0x100038ac                __wrap___aeabi_fadd
-                0x100038b2                __wrap___aeabi_fdiv
-                0x100038da                __wrap___aeabi_fmul
+                0x100038ec       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x100038ec                __wrap___aeabi_frsub
+                0x100038f2                __wrap___aeabi_fsub
+                0x100038f8                __wrap___aeabi_fadd
+                0x100038fe                __wrap___aeabi_fdiv
+                0x10003926                __wrap___aeabi_fmul
  .text.__wrap___aeabi_cfcmple
-                0x100038e8       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x100038e8                __wrap___aeabi_cfrcmple
-                0x100038f4                __wrap___aeabi_cfcmple
-                0x100038f4                __wrap___aeabi_cfcmpeq
+                0x10003934       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10003934                __wrap___aeabi_cfrcmple
+                0x10003940                __wrap___aeabi_cfcmple
+                0x10003940                __wrap___aeabi_cfcmpeq
  .text.__wrap___aeabi_fcmplt
-                0x10003938        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10003938                __wrap___aeabi_fcmplt
+                0x10003984        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10003984                __wrap___aeabi_fcmplt
  .text.__wrap___aeabi_i2f
-                0x10003944       0x44 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10003944                __wrap___aeabi_i2f
-                0x10003944                int2float
+                0x10003990       0x44 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x10003990                __wrap___aeabi_i2f
+                0x10003990                int2float
  .text.__wrap___aeabi_f2d
-                0x10003988        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
-                0x10003988                __wrap___aeabi_f2d
+                0x100039d4        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x100039d4                __wrap___aeabi_f2d
  .text.missing_float_func_shim
-                0x10003994        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x100039e0        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .text.__aeabi_float_init
-                0x100039a0       0x5c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
-                0x100039a0                __aeabi_float_init
+                0x100039ec       0x5c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x100039ec                __aeabi_float_init
  .text.__wrap_calloc
-                0x100039fc       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
-                0x100039fc                __wrap_calloc
- .text          0x10003a24       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003a24                __aeabi_mem_init
- .text.memset   0x10003a34        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003a34                __wrap_memset
- .text.memcpy   0x10003a40        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
-                0x10003a40                __wrap_memcpy
-                0x10003a40                __wrap___aeabi_memcpy
+                0x10003a48       0x28 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x10003a48                __wrap_calloc
+ .text          0x10003a70       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003a70                __aeabi_mem_init
+ .text.memset   0x10003a80        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003a80                __wrap_memset
+ .text.memcpy   0x10003a8c        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10003a8c                __wrap_memcpy
+                0x10003a8c                __wrap___aeabi_memcpy
  .text._out_buffer
-                0x10003a4c        0x8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10003a98        0x8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text._out_null
-                0x10003a54        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10003aa0        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text._out_rev
-                0x10003a58       0xac CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10003aa4       0xac CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text._ntoa_format
-                0x10003b04      0x1cc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10003b50      0x1cc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text._out_char
-                0x10003cd0       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .text._ftoa    0x10003ce0      0x4a8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .text._etoa    0x10004188      0x57c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10003d1c       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .text._ftoa    0x10003d2c      0x4a8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .text._etoa    0x100041d4      0x57c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text._vsnprintf
-                0x10004704      0xbe0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10004750      0xbe0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .text.__wrap_sprintf
-                0x100052e4       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
-                0x100052e4                __wrap_sprintf
+                0x10005330       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10005330                __wrap_sprintf
  .text.weak_raw_vprintf
-                0x10005310       0x30 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
-                0x10005310                weak_raw_vprintf
- .text._exit    0x10005340        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10005340                _exit
- .text._sbrk    0x10005344       0x34 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10005344                _sbrk
- .text.exit     0x10005378        0x8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10005378                exit
+                0x1000535c       0x30 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x1000535c                weak_raw_vprintf
+ .text._exit    0x1000538c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x1000538c                _exit
+ .text._sbrk    0x10005390       0x34 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x10005390                _sbrk
+ .text.exit     0x100053c4        0x8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100053c4                exit
  .text.runtime_init
-                0x10005380       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
-                0x10005380                runtime_init
+                0x100053cc       0x2c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x100053cc                runtime_init
  .text.stdio_out_chars_no_crlf
-                0x100053ac       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100053f8       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_out_chars_crlf
-                0x100053bc       0xb0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005408       0xb0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .text.stdio_put_string
-                0x1000546c       0xfc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x1000546c                stdio_put_string
+                0x100054b8       0xfc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100054b8                stdio_put_string
  .text.__wrap_putchar
-                0x10005568       0x94 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10005568                __wrap_putchar
-                0x10005568                stdio_putchar
+                0x100055b4       0x94 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x100055b4                __wrap_putchar
+                0x100055b4                stdio_putchar
  .text.__wrap_puts
-                0x100055fc       0x3c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x100055fc                stdio_puts
-                0x100055fc                __wrap_puts
+                0x10005648       0x3c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10005648                stdio_puts
+                0x10005648                __wrap_puts
  .text.startup._retrieve_unique_id_on_boot
-                0x10005638       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x10005684       0x10 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .text.flash_get_unique_id
-                0x10005648       0x3c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
-                0x10005648                flash_get_unique_id
+                0x10005694       0x3c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x10005694                flash_get_unique_id
  .text.i2c_write_blocking_internal.constprop.0
-                0x10005684       0xf8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100056d0       0xf8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
  .text.i2c_set_baudrate
-                0x1000577c       0xc0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x1000577c                i2c_set_baudrate
+                0x100057c8       0xc0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100057c8                i2c_set_baudrate
  .text.i2c_init
-                0x1000583c       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x1000583c                i2c_init
+                0x10005888       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x10005888                i2c_init
  .text.i2c_write_blocking
-                0x1000588c       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
-                0x1000588c                i2c_write_blocking
+                0x100058d8       0x14 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x100058d8                i2c_write_blocking
  .text.adc_init
-                0x100058a0       0x38 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
-                0x100058a0                adc_init
- .text.calloc   0x100058d8       0x18 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
-                0x100058d8                calloc
+                0x100058ec       0x38 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
+                0x100058ec                adc_init
+ .text.calloc   0x10005924       0x18 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-calloc.o)
+                0x10005924                calloc
  .text._calloc_r
-                0x100058f0       0xa8 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-callocr.o)
-                0x100058f0                _calloc_r
+                0x1000593c       0xa8 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-callocr.o)
+                0x1000593c                _calloc_r
  .text._malloc_r
-                0x10005998      0x5cc C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
-                0x10005998                _malloc_r
+                0x100059e4      0x5cc C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mallocr.o)
+                0x100059e4                _malloc_r
  .text.__malloc_lock
-                0x10005f64       0x10 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
-                0x10005f64                __malloc_lock
+                0x10005fb0       0x10 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+                0x10005fb0                __malloc_lock
  .text.__malloc_unlock
-                0x10005f74       0x10 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
-                0x10005f74                __malloc_unlock
- .text._sbrk_r  0x10005f84       0x24 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
-                0x10005f84                _sbrk_r
- .text.__errno  0x10005fa8        0xc C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
-                0x10005fa8                __errno
+                0x10005fc0       0x10 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-mlock.o)
+                0x10005fc0                __malloc_unlock
+ .text._sbrk_r  0x10005fd0       0x24 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sbrkr.o)
+                0x10005fd0                _sbrk_r
+ .text.__errno  0x10005ff4        0xc C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-errno.o)
+                0x10005ff4                __errno
  .text.__retarget_lock_acquire_recursive
-                0x10005fb4        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x10005fb4                __retarget_lock_acquire_recursive
+                0x10006000        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x10006000                __retarget_lock_acquire_recursive
  .text.__retarget_lock_release_recursive
-                0x10005fb8        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
-                0x10005fb8                __retarget_lock_release_recursive
- .text.sysconf  0x10005fbc       0x1c C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
-                0x10005fbc                sysconf
- .text.strlen   0x10005fd8       0x5c C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
-                0x10005fd8                strlen
+                0x10006004        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-lock.o)
+                0x10006004                __retarget_lock_release_recursive
+ .text.sysconf  0x10006008       0x1c C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-sysconf.o)
+                0x10006008                sysconf
+ .text.strlen   0x10006024       0x5c C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-strlen-stub.o)
+                0x10006024                strlen
  .text._malloc_trim_r
-                0x10006034       0xb4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
-                0x10006034                _malloc_trim_r
- .text._free_r  0x100060e8      0x1f0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
-                0x100060e8                _free_r
+                0x10006080       0xb4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+                0x10006080                _malloc_trim_r
+ .text._free_r  0x10006134      0x1f0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp\libg.a(libc_a-freer.o)
+                0x10006134                _free_r
  *(.fini)
- .fini          0x100062d8        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
-                0x100062d8                _fini
- *fill*         0x100062dc        0x4 
- .fini.__stub   0x100062e0       0x50 linker stubs
+ .fini          0x10006324        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crti.o
+                0x10006324                _fini
+ .fini.__stub   0x10006328       0x50 linker stubs
  *crtbegin.o(.ctors)
  *crtbegin?.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .ctors)
@@ -3603,167 +3602,167 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(EXCLUDE_FILE(*crtend.o *crtend?.o) .dtors)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x10006330                        . = ALIGN (0x4)
-                0x10006330                        PROVIDE (__preinit_array_start = .)
+                0x10006378                        . = ALIGN (0x4)
+                0x10006378                        PROVIDE (__preinit_array_start = .)
  *(SORT_BY_NAME(.preinit_array.*))
  .preinit_array.00100
-                0x10006330        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10006330                __pre_init_runtime_init_early_resets
+                0x10006378        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006378                __pre_init_runtime_init_early_resets
  .preinit_array.00101
-                0x10006334        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10006334                __pre_init_runtime_init_usb_power_down
+                0x1000637c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000637c                __pre_init_runtime_init_usb_power_down
  .preinit_array.00275
-                0x10006338        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+                0x10006380        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
  .preinit_array.00300
-                0x1000633c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+                0x10006384        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
  .preinit_array.00350
-                0x10006340        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+                0x10006388        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
  .preinit_array.00350
-                0x10006344        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+                0x1000638c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
  .preinit_array.00500
-                0x10006348        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10006348                __pre_init_runtime_init_clocks
+                0x10006390        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006390                __pre_init_runtime_init_clocks
  .preinit_array.00600
-                0x1000634c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000634c                __pre_init_runtime_init_post_clock_resets
+                0x10006394        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006394                __pre_init_runtime_init_post_clock_resets
  .preinit_array.00700
-                0x10006350        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10006350                __pre_init_runtime_init_rp2040_gpio_ie_disable
+                0x10006398        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x10006398                __pre_init_runtime_init_rp2040_gpio_ie_disable
  .preinit_array.01000
-                0x10006354        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x10006354                __pre_init_runtime_init_spin_locks_reset
+                0x1000639c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x1000639c                __pre_init_runtime_init_spin_locks_reset
  .preinit_array.01100
-                0x10006358        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
-                0x10006358                __pre_init_runtime_init_mutex
+                0x100063a0        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x100063a0                __pre_init_runtime_init_mutex
  .preinit_array.10080
-                0x1000635c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
-                0x1000635c                __pre_init_runtime_init_install_ram_vector_table
+                0x100063a4        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x100063a4                __pre_init_runtime_init_install_ram_vector_table
  .preinit_array.11000
-                0x10006360        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
-                0x10006360                __pre_init_runtime_init_default_alarm_pool
+                0x100063a8        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x100063a8                __pre_init_runtime_init_default_alarm_pool
  .preinit_array.YYYYY
-                0x10006364        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
-                0x10006364                __pre_init_first_per_core_initializer
+                0x100063ac        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x100063ac                __pre_init_first_per_core_initializer
  .preinit_array.ZZZZZ.01200
-                0x10006368        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
-                0x10006368                __pre_init_runtime_init_per_core_irq_priorities
+                0x100063b0        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x100063b0                __pre_init_runtime_init_per_core_irq_priorities
  *(.preinit_array)
-                0x1000636c                        PROVIDE (__preinit_array_end = .)
-                0x1000636c                        . = ALIGN (0x4)
-                0x1000636c                        PROVIDE (__init_array_start = .)
+                0x100063b4                        PROVIDE (__preinit_array_end = .)
+                0x100063b4                        . = ALIGN (0x4)
+                0x100063b4                        PROVIDE (__init_array_start = .)
  *(SORT_BY_NAME(.init_array.*))
  *(.init_array)
- .init_array    0x1000636c        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
- .init_array    0x10006370        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
-                0x10006374                        PROVIDE (__init_array_end = .)
-                0x10006374                        . = ALIGN (0x4)
+ .init_array    0x100063b4        0x4 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+ .init_array    0x100063b8        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x100063bc                        PROVIDE (__init_array_end = .)
+                0x100063bc                        . = ALIGN (0x4)
                 [!provide]                        PROVIDE (__fini_array_start = .)
  *(SORT_BY_NAME(.fini_array.*))
  *(.fini_array)
                 [!provide]                        PROVIDE (__fini_array_end = .)
  *(.eh_frame*)
- .eh_frame      0x10006374        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10006374                        . = ALIGN (0x4)
+ .eh_frame      0x100063bc        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x100063bc                        . = ALIGN (0x4)
 
-.glue_7         0x10006374        0x0
- .glue_7        0x10006374        0x0 linker stubs
+.glue_7         0x100063bc        0x0
+ .glue_7        0x100063bc        0x0 linker stubs
 
-.glue_7t        0x10006374        0x0
- .glue_7t       0x10006374        0x0 linker stubs
+.glue_7t        0x100063bc        0x0
+ .glue_7t       0x100063bc        0x0 linker stubs
 
-.vfp11_veneer   0x10006374        0x0
- .vfp11_veneer  0x10006374        0x0 linker stubs
+.vfp11_veneer   0x100063bc        0x0
+ .vfp11_veneer  0x100063bc        0x0 linker stubs
 
-.v4_bx          0x10006374        0x0
- .v4_bx         0x10006374        0x0 linker stubs
+.v4_bx          0x100063bc        0x0
+ .v4_bx         0x100063bc        0x0 linker stubs
 
-.iplt           0x10006374        0x0
- .iplt          0x10006374        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+.iplt           0x100063bc        0x0
+ .iplt          0x100063bc        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.rodata         0x10006378      0x6a4
+.rodata         0x100063c0      0x6a4
  *(EXCLUDE_FILE(*libm.a: *libc.a:*lib_a-mem*.o *libgcc.a:) .rodata*)
  .rodata.main.str1.4
-                0x10006378      0x139 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+                0x100063c0      0x139 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
                                  0x1b (size before relaxing)
  .rodata.str1.4
-                0x100064b1       0x53 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
- *fill*         0x100064b1        0x3 
- .rodata        0x100064b4       0x28 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
- .rodata.font   0x100064dc      0x2f8 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x100064f9       0x53 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+ *fill*         0x100064f9        0x3 
+ .rodata        0x100064fc       0x28 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+ .rodata.font   0x10006524      0x2f8 CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
  .rodata.panic.str1.4
-                0x100067d4       0x12 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+                0x1000681c       0x12 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
  .rodata.timer_hardware_alarm_claim.str1.4
-                0x100067d4       0x22 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x1000681c       0x22 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
  .rodata.hard_assertion_failure.str1.4
-                0x100067d4        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x1000681c        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .rodata.missing_double_func_shim.str1.4
-                0x100067d4       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x1000681c       0x18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .rodata.missing_float_func_shim.str1.4
-                0x100067d4        0x1 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x1000681c        0x1 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .rodata.__wrap_malloc.str1.4
-                0x100067d4        0xe CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x1000681c        0xe CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
  .rodata.str1.4
-                0x100067d4       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x1000681c       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata.__bi_84
-                0x100067d4        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .rodata.__bi_78
-                0x100067e0        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .rodata.__bi_54
-                0x100067ec        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .rodata.__bi_48
-                0x100067f8        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .rodata.__bi_42
-                0x10006804        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .rodata.__bi_34
-                0x10006810        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .rodata.__bi_26
                 0x1000681c        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .rodata.__bi_78
+                0x10006828        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .rodata.__bi_54
+                0x10006834        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .rodata.__bi_48
+                0x10006840        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .rodata.__bi_42
+                0x1000684c        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .rodata.__bi_34
+                0x10006858        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .rodata.__bi_26
+                0x10006864        0xc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .rodata._ftoa.str1.4
-                0x10006828       0x15 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10006870       0x15 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .rodata._vsnprintf
-                0x10006828      0x19c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- *fill*         0x100069c4        0x4 
+                0x10006870      0x19c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ *fill*         0x10006a0c        0x4 
  .rodata.pow10.0
-                0x100069c8       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x10006a10       0x50 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .rodata.crlf_str.0
-                0x10006a18        0x2 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
-                0x10006a1c                        . = ALIGN (0x4)
- *fill*         0x10006a1a        0x2 
+                0x10006a60        0x2 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x10006a64                        . = ALIGN (0x4)
+ *fill*         0x10006a62        0x2 
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.flashdata*)))
-                0x10006a1c                        . = ALIGN (0x4)
+                0x10006a64                        . = ALIGN (0x4)
 
 .ARM.extab
  *(.ARM.extab* .gnu.linkonce.armextab.*)
-                0x10006a1c                        __exidx_start = .
+                0x10006a64                        __exidx_start = .
 
 .ARM.exidx
  *(.ARM.exidx* .gnu.linkonce.armexidx.*)
-                0x10006a1c                        __exidx_end = .
-                0x10006a1c                        . = ALIGN (0x4)
-                0x10006a1c                        __binary_info_start = .
+                0x10006a64                        __exidx_end = .
+                0x10006a64                        . = ALIGN (0x4)
+                0x10006a64                        __binary_info_start = .
 
-.binary_info    0x10006a1c       0x1c
+.binary_info    0x10006a64       0x1c
  *(.binary_info.keep.*)
  .binary_info.keep.__bi_ptr84
-                0x10006a1c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a64        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr78
-                0x10006a20        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a68        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr54
-                0x10006a24        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a6c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr48
-                0x10006a28        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a70        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr42
-                0x10006a2c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a74        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr34
-                0x10006a30        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a78        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  .binary_info.keep.__bi_ptr26
-                0x10006a34        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+                0x10006a7c        0x4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
  *(.binary_info.*)
-                0x10006a38                        __binary_info_end = .
+                0x10006a80                        __binary_info_end = .
 
-.rel.dyn        0x10006a38        0x0
- .rel.iplt      0x10006a38        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
-                0x10006a38                        . = ALIGN (0x4)
+.rel.dyn        0x10006a80        0x0
+ .rel.iplt      0x10006a80        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
+                0x10006a80                        . = ALIGN (0x4)
 
 .ram_vector_table
                 0x20000000       0xc0
@@ -3777,7 +3776,7 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x200000c0                        . = ALIGN (0x4)
  *(.uninitialized_data*)
 
-.data           0x200000c0      0x8e0 load address 0x10006a38
+.data           0x200000c0      0x8e0 load address 0x10006a80
                 0x200000c0                        __data_start__ = .
  *(vtable)
  *(.time_critical*)
@@ -3870,23 +3869,23 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
                 0x200009a0                        . = ALIGN (0x4)
 
 .tm_clone_table
-                0x200009a0        0x0 load address 0x10007318
+                0x200009a0        0x0 load address 0x10007360
  .tm_clone_table
                 0x200009a0        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
  .tm_clone_table
                 0x200009a0        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtend.o
 
-.igot.plt       0x200009a0        0x0 load address 0x10007318
+.igot.plt       0x200009a0        0x0 load address 0x10007360
  .igot.plt      0x200009a0        0x0 C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/14.2.1/thumb/v6-m/nofp/crtbegin.o
 
-.tdata          0x200009a0        0x0 load address 0x10007318
+.tdata          0x200009a0        0x0 load address 0x10007360
                 0x200009a0                        . = ALIGN (0x4)
  *(.tdata .tdata.* .gnu.linkonce.td.*)
                 0x200009a0                        __tdata_end = .
                 0x200009a0                        PROVIDE (__data_end__ = .)
-                0x10006a38                        __etext = LOADADDR (.data)
+                0x10006a80                        __etext = LOADADDR (.data)
 
-.tbss           0x200009a0        0x0 load address 0x10007318
+.tbss           0x200009a0        0x0 load address 0x10007360
                 0x200009a0                        . = ALIGN (0x4)
                 0x200009a0                        __bss_start__ = .
                 0x200009a0                        __tls_base = .
@@ -3894,7 +3893,7 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.tcommon)
                 0x200009a0                        __tls_end = .
 
-.bss            0x200009a0      0x680 load address 0x10007318
+.bss            0x200009a0      0x680 load address 0x10007360
                 0x200009a0                        . = ALIGN (0x4)
                 0x200009a0                        __tbss_end = .
  *(SORT_BY_ALIGNMENT(SORT_BY_NAME(.bss*)))
@@ -3960,26 +3959,26 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *fill*         0x2000101e        0x2 
                 0x20001020                        __bss_end__ = .
 
-.heap           0x20001020      0x800 load address 0x10007318
+.heap           0x20001020      0x800 load address 0x10007360
                 0x20001020                        __end__ = .
                 0x20001020                        end = __end__
  *(.heap*)
  .heap          0x20001020      0x800 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
                 0x20040000                        __HeapLimit = (ORIGIN (RAM) + LENGTH (RAM))
 
-.scratch_x      0x20040000        0x0 load address 0x10007318
+.scratch_x      0x20040000        0x0 load address 0x10007360
                 0x20040000                        __scratch_x_start__ = .
  *(.scratch_x.*)
                 0x20040000                        . = ALIGN (0x4)
                 0x20040000                        __scratch_x_end__ = .
-                0x10007318                        __scratch_x_source__ = LOADADDR (.scratch_x)
+                0x10007360                        __scratch_x_source__ = LOADADDR (.scratch_x)
 
-.scratch_y      0x20041000        0x0 load address 0x10007318
+.scratch_y      0x20041000        0x0 load address 0x10007360
                 0x20041000                        __scratch_y_start__ = .
  *(.scratch_y.*)
                 0x20041000                        . = ALIGN (0x4)
                 0x20041000                        __scratch_y_end__ = .
-                0x10007318                        __scratch_y_source__ = LOADADDR (.scratch_y)
+                0x10007360                        __scratch_y_source__ = LOADADDR (.scratch_y)
 
 .stack1_dummy
  *(.stack1*)
@@ -3988,9 +3987,9 @@ LOAD C:/Users/rian_/.pico-sdk/toolchain/14_2_Rel1/bin/../lib/gcc/arm-none-eabi/1
  *(.stack*)
  .stack         0x20041000      0x800 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
 
-.flash_end      0x10007318        0x0
+.flash_end      0x10007360        0x0
  *(.embedded_end_block*)
-                0x10007318                        PROVIDE (__flash_binary_end = .)
+                0x10007360                        PROVIDE (__flash_binary_end = .)
                 0x20040000                        __StackLimit = (ORIGIN (RAM) + LENGTH (RAM))
                 0x20041000                        __StackOneTop = (ORIGIN (SCRATCH_X) + LENGTH (SCRATCH_X))
                 0x20042000                        __StackTop = (ORIGIN (SCRATCH_Y) + LENGTH (SCRATCH_Y))
@@ -4265,47 +4264,47 @@ LOAD linker stubs
  .comment       0x00000045       0x46 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
  .comment       0x00000045       0x46 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
 
-.debug_info     0x00000000    0x24a46
- .debug_info    0x00000000     0x1af3 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
- .debug_info    0x00001af3     0x1b0b CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
- .debug_info    0x000035fe     0x242d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_info    0x00005a2b      0x1bf CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_info    0x00005bea      0x9a1 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
- .debug_info    0x0000658b      0x45c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_info    0x000069e7      0x245 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_info    0x00006c2c     0x220f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_info    0x00008e3b      0x15f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
- .debug_info    0x00008f9a     0x27f1 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
- .debug_info    0x0000b78b     0x5036 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
- .debug_info    0x000107c1     0x2b13 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_info    0x000132d4     0x2991 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_info    0x00015c65      0x4e5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_info    0x0001614a      0x248 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_info    0x00016392      0x678 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_info    0x00016a0a      0x1d0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_info    0x00016bda      0x21a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_info    0x00016df4      0x795 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_info    0x00017589      0x781 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_info    0x00017d0a       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_info    0x00017d2d       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_info    0x00017d50       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_info    0x00017d73      0x2c4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_info    0x00018037     0x3e71 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
- .debug_info    0x0001bea8       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_info    0x0001becc       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_info    0x0001bef0       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_info    0x0001bf13      0x2b0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_info    0x0001c1c3      0x3e4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_info    0x0001c5a7       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_info    0x0001c5ca      0x2b8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_info    0x0001c882     0x22f2 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_info    0x0001eb74       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_info    0x0001eb97      0xb54 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_info    0x0001f6eb     0x1d96 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_info    0x00021481      0x201 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_info    0x00021682     0x12f4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_info    0x00022976     0x1cd4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_info    0x0002464a      0x3fc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
+.debug_info     0x00000000    0x24b38
+ .debug_info    0x00000000     0x1be5 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+ .debug_info    0x00001be5     0x1b0b CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+ .debug_info    0x000036f0     0x242d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_info    0x00005b1d      0x1bf CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_info    0x00005cdc      0x9a1 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+ .debug_info    0x0000667d      0x45c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_info    0x00006ad9      0x245 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_info    0x00006d1e     0x220f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_info    0x00008f2d      0x15f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+ .debug_info    0x0000908c     0x27f1 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+ .debug_info    0x0000b87d     0x5036 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+ .debug_info    0x000108b3     0x2b13 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_info    0x000133c6     0x2991 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_info    0x00015d57      0x4e5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_info    0x0001623c      0x248 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_info    0x00016484      0x678 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_info    0x00016afc      0x1d0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_info    0x00016ccc      0x21a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_info    0x00016ee6      0x795 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_info    0x0001767b      0x781 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_info    0x00017dfc       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_info    0x00017e1f       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_info    0x00017e42       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_info    0x00017e65      0x2c4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_info    0x00018129     0x3e71 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+ .debug_info    0x0001bf9a       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_info    0x0001bfbe       0x24 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_info    0x0001bfe2       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_info    0x0001c005      0x2b0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_info    0x0001c2b5      0x3e4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_info    0x0001c699       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_info    0x0001c6bc      0x2b8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_info    0x0001c974     0x22f2 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_info    0x0001ec66       0x23 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_info    0x0001ec89      0xb54 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_info    0x0001f7dd     0x1d96 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_info    0x00021573      0x201 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_info    0x00021774     0x12f4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_info    0x00022a68     0x1cd4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_info    0x0002473c      0x3fc CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_abbrev   0x00000000     0x5ee1
  .debug_abbrev  0x00000000      0x431 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
@@ -4350,67 +4349,67 @@ LOAD linker stubs
  .debug_abbrev  0x00005d9f      0x142 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_loclists
-                0x00000000    0x17dcc
+                0x00000000    0x17dde
  .debug_loclists
-                0x00000000      0x339 CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+                0x00000000      0x34b CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
  .debug_loclists
-                0x00000339     0x181f CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+                0x0000034b     0x181f CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
  .debug_loclists
-                0x00001b58     0x1ac0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+                0x00001b6a     0x1ac0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
  .debug_loclists
-                0x00003618      0x349 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+                0x0000362a      0x349 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
  .debug_loclists
-                0x00003961      0x108 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+                0x00003973      0x108 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
  .debug_loclists
-                0x00003a69       0x7d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+                0x00003a7b       0x7d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
  .debug_loclists
-                0x00003ae6     0x11ed CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+                0x00003af8     0x11ed CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
  .debug_loclists
-                0x00004cd3       0x41 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+                0x00004ce5       0x41 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
  .debug_loclists
-                0x00004d14      0xaec CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+                0x00004d26      0xaec CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
  .debug_loclists
-                0x00005800     0x27d7 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+                0x00005812     0x27d7 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
  .debug_loclists
-                0x00007fd7     0x19f6 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+                0x00007fe9     0x19f6 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
  .debug_loclists
-                0x000099cd     0x2b6f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+                0x000099df     0x2b6f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
  .debug_loclists
-                0x0000c53c      0x1e0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+                0x0000c54e      0x1e0 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
  .debug_loclists
-                0x0000c71c       0x47 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+                0x0000c72e       0x47 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
  .debug_loclists
-                0x0000c763      0x351 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+                0x0000c775      0x351 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
  .debug_loclists
-                0x0000cab4       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+                0x0000cac6       0x48 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
  .debug_loclists
-                0x0000cafc       0x7e CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+                0x0000cb0e       0x7e CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
  .debug_loclists
-                0x0000cb7a       0xba CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+                0x0000cb8c       0xba CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
  .debug_loclists
-                0x0000cc34       0x74 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+                0x0000cc46       0x74 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
  .debug_loclists
-                0x0000cca8       0x35 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+                0x0000ccba       0x35 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
  .debug_loclists
-                0x0000ccdd     0x43fa CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+                0x0000ccef     0x43fa CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
  .debug_loclists
-                0x000110d7       0x4e CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+                0x000110e9       0x4e CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
  .debug_loclists
-                0x00011125      0x206 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+                0x00011137      0x206 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
  .debug_loclists
-                0x0001132b     0x355f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+                0x0001133d     0x355f CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
  .debug_loclists
-                0x0001488a      0x431 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+                0x0001489c      0x431 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
  .debug_loclists
-                0x00014cbb      0xf58 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+                0x00014ccd      0xf58 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
  .debug_loclists
-                0x00015c13      0x3d5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+                0x00015c25      0x3d5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
  .debug_loclists
-                0x00015fe8      0x92a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+                0x00015ffa      0x92a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
  .debug_loclists
-                0x00016912     0x1422 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+                0x00016924     0x1422 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
  .debug_loclists
-                0x00017d34       0x98 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
+                0x00017d46       0x98 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_aranges  0x00000000     0x10a8
  .debug_aranges
@@ -4571,47 +4570,47 @@ LOAD linker stubs
  .debug_rnglists
                 0x000037d9       0x2b CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
 
-.debug_line     0x00000000    0x1c271
- .debug_line    0x00000000      0x97e CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
- .debug_line    0x0000097e     0x14cb CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
- .debug_line    0x00001e49     0x1ca4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
- .debug_line    0x00003aed      0x28a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
- .debug_line    0x00003d77      0x8f4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
- .debug_line    0x0000466b      0x4d8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
- .debug_line    0x00004b43      0x3ba CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
- .debug_line    0x00004efd     0x1775 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
- .debug_line    0x00006672      0x2e5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
- .debug_line    0x00006957     0x1b45 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
- .debug_line    0x0000849c     0x3556 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
- .debug_line    0x0000b9f2     0x1d16 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
- .debug_line    0x0000d708     0x210c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
- .debug_line    0x0000f814      0x500 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
- .debug_line    0x0000fd14      0x344 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
- .debug_line    0x00010058      0x460 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
- .debug_line    0x000104b8      0x34d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
- .debug_line    0x00010805      0x319 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
- .debug_line    0x00010b1e      0x542 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
- .debug_line    0x00011060      0x569 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
- .debug_line    0x000115c9      0x107 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
- .debug_line    0x000116d0      0x2a9 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
- .debug_line    0x00011979      0x44d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
- .debug_line    0x00011dc6      0x50a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
- .debug_line    0x000122d0     0x2d43 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
- .debug_line    0x00015013       0x5d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
- .debug_line    0x00015070       0x61 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
- .debug_line    0x000150d1      0x3c6 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
- .debug_line    0x00015497      0x3c6 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
- .debug_line    0x0001585d      0x2a4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
- .debug_line    0x00015b01       0x94 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
- .debug_line    0x00015b95      0x1f5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
- .debug_line    0x00015d8a     0x1d18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
- .debug_line    0x00017aa2       0xa5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
- .debug_line    0x00017b47      0x870 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
- .debug_line    0x000183b7     0x154d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
- .debug_line    0x00019904      0x667 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
- .debug_line    0x00019f6b      0xbec CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
- .debug_line    0x0001ab57     0x131d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
- .debug_line    0x0001be74      0x3fd CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
+.debug_line     0x00000000    0x1c27e
+ .debug_line    0x00000000      0x98b CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
+ .debug_line    0x0000098b     0x14cb CMakeFiles/Teste_Voltimetro.dir/lib/ssd1306.c.obj
+ .debug_line    0x00001e56     0x1ca4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_gpio/gpio.c.obj
+ .debug_line    0x00003afa      0x28a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_platform_panic/panic.c.obj
+ .debug_line    0x00003d84      0x8f4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/hardware_claim/claim.c.obj
+ .debug_line    0x00004678      0x4d8 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync/sync.c.obj
+ .debug_line    0x00004b50      0x3ba CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_sync_spin_lock/sync_spin_lock.c.obj
+ .debug_line    0x00004f0a     0x1775 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_irq/irq.c.obj
+ .debug_line    0x0000667f      0x2e5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/lock_core.c.obj
+ .debug_line    0x00006964     0x1b45 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_sync/mutex.c.obj
+ .debug_line    0x000084a9     0x3556 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/common/pico_time/time.c.obj
+ .debug_line    0x0000b9ff     0x1d16 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_timer/timer.c.obj
+ .debug_line    0x0000d715     0x210c CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_clocks/clocks.c.obj
+ .debug_line    0x0000f821      0x500 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_pll/pll.c.obj
+ .debug_line    0x0000fd21      0x344 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_ticks/ticks.c.obj
+ .debug_line    0x00010065      0x460 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bootrom/bootrom.c.obj
+ .debug_line    0x000104c5      0x34d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_xosc/xosc.c.obj
+ .debug_line    0x00010812      0x319 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime/runtime.c.obj
+ .debug_line    0x00010b2b      0x542 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init.c.obj
+ .debug_line    0x0001106d      0x569 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_runtime_init/runtime_init_clocks.c.obj
+ .debug_line    0x000115d6      0x107 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_bit_ops/bit_ops_aeabi.S.obj
+ .debug_line    0x000116dd      0x2a9 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_divider/divider_hardware.S.obj
+ .debug_line    0x00011986      0x44d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_aeabi_rp2040.S.obj
+ .debug_line    0x00011dd3      0x50a CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_init_rom_rp2040.c.obj
+ .debug_line    0x000122dd     0x2d43 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_math.c.obj
+ .debug_line    0x00015020       0x5d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_double/double_v1_rom_shim_rp2040.S.obj
+ .debug_line    0x0001507d       0x61 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_int64_ops/pico_int64_ops_aeabi.S.obj
+ .debug_line    0x000150de      0x3c6 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_aeabi_rp2040.S.obj
+ .debug_line    0x000154a4      0x3c6 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_float/float_init_rom_rp2040.c.obj
+ .debug_line    0x0001586a      0x2a4 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_malloc/malloc.c.obj
+ .debug_line    0x00015b0e       0x94 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_mem_ops/mem_ops_aeabi.S.obj
+ .debug_line    0x00015ba2      0x1f5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_standard_binary_info/standard_binary_info.c.obj
+ .debug_line    0x00015d97     0x1d18 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_printf/printf.c.obj
+ .debug_line    0x00017aaf       0xa5 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_crt0/crt0.S.obj
+ .debug_line    0x00017b54      0x870 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_clib_interface/newlib_interface.c.obj
+ .debug_line    0x000183c4     0x154d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_stdio/stdio.c.obj
+ .debug_line    0x00019911      0x667 CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/pico_unique_id/unique_id.c.obj
+ .debug_line    0x00019f78      0xbec CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_flash/flash.c.obj
+ .debug_line    0x0001ab64     0x131d CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_i2c/i2c.c.obj
+ .debug_line    0x0001be81      0x3fd CMakeFiles/Teste_Voltimetro.dir/C_/Users/rian_/.pico-sdk/sdk/2.1.1/src/rp2_common/hardware_adc/adc.c.obj
 
 .debug_str      0x00000000     0x549c
  .debug_str     0x00000000     0x549c CMakeFiles/Teste_Voltimetro.dir/Ohmimetro01.c.obj
