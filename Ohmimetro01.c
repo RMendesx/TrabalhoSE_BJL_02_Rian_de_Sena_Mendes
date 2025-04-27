@@ -12,7 +12,7 @@
 #define endereco 0x3C
 #define ADC_PIN 28 // GPIO para o voltímetro
 
-int R_conhecido = 9800;   // Resistor de 10k ohm
+int R_conhecido = 9850;    // Resistor de 10k ohm
 float R_x = 0.0;           // Resistor desconhecido
 float ADC_VREF = 3.31;     // Tensão de referência do ADC
 int ADC_RESOLUTION = 4095; // Resolução do ADC (12 bits)
@@ -143,18 +143,18 @@ int main()
     ssd1306_draw_string(&ssd, cor2, 9, 39);
     ssd1306_draw_string(&ssd, cor3, 9, 48);
 
-    //Desenha resistor no display
+    // Desenha resistor no display
     ssd1306_rect(&ssd, 32, 80, 10, 20, cor, !cor);  // Desenha um retângulo
-    ssd1306_rect(&ssd, 32, 110, 10, 20, cor, !cor);  // Desenha um retângulo
+    ssd1306_rect(&ssd, 32, 110, 10, 20, cor, !cor); // Desenha um retângulo
     ssd1306_rect(&ssd, 34, 90, 20, 16, cor, !cor);  // Desenha um retângulo
 
     ssd1306_rect(&ssd, 34, 90, 4, 16, cor, cor);  // Desenha um retângulo
     ssd1306_rect(&ssd, 34, 98, 4, 16, cor, cor);  // Desenha um retângulo
-    ssd1306_rect(&ssd, 34, 106, 4, 16, cor, cor);  // Desenha um retângulo
-    
-    ssd1306_line(&ssd, 89, 35, 89, 48, !cor);        // Desenha uma linha vertical
-    ssd1306_line(&ssd, 110, 35, 110, 48, !cor);        // Desenha uma linha vertical
-    
+    ssd1306_rect(&ssd, 34, 106, 4, 16, cor, cor); // Desenha um retângulo
+
+    ssd1306_line(&ssd, 89, 35, 89, 48, !cor);   // Desenha uma linha vertical
+    ssd1306_line(&ssd, 110, 35, 110, 48, !cor); // Desenha uma linha vertical
+
     ssd1306_send_data(&ssd); // Atualiza o display
     sleep_ms(700);
   }
