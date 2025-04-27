@@ -5,14 +5,14 @@
 #include "hardware/i2c.h"
 #include "lib/ssd1306.h"
 #include "lib/font.h"
-#include <math.h>
+#include <math.h> // Inclusão da biblioteca math.h para usar a função pow()
 #define I2C_PORT i2c1
 #define I2C_SDA 14
 #define I2C_SCL 15
 #define endereco 0x3C
 #define ADC_PIN 28 // GPIO para o voltímetro
 
-int R_conhecido = 9850;    // Resistor de 10k ohm
+int R_conhecido = 9850;    // Ajuste o valor do resistor conhecido (10K) para o valor real
 float R_x = 0.0;           // Resistor desconhecido
 float ADC_VREF = 3.31;     // Tensão de referência do ADC
 int ADC_RESOLUTION = 4095; // Resolução do ADC (12 bits)
@@ -28,11 +28,14 @@ void gpio_irq_handler(uint gpio, uint32_t events)
 float e24_values[] = {
     1.0, 1.1, 1.2, 1.3, 1.5, 1.6, 1.8, 2.0,
     2.2, 2.4, 2.7, 3.0, 3.3, 3.6, 3.9, 4.3,
-    4.7, 5.1, 5.6, 6.2, 6.8, 7.5, 8.2, 9.1};
-int e24_count = sizeof(e24_values) / sizeof(float);
+    4.7, 5.1, 5.6, 6.2, 6.8, 7.5, 8.2, 9.1}; // Array com os valores E24
+
+int e24_count = sizeof(e24_values) / sizeof(float); // Número de valores E24
 
 int main()
 {
+  stdio_init_all(); // Inicializa a comunicação serial
+
   // Para ser utilizado o modo BOOTSEL com botão B
   gpio_init(botaoB);
   gpio_set_dir(botaoB, GPIO_IN);
@@ -64,6 +67,7 @@ int main()
   char str_y[5]; // Buffer para armazenar a string
 
   bool cor = true;
+
   while (true)
   {
     adc_select_input(2); // Seleciona o ADC para eixo X. O pino 28 como entrada analógica
