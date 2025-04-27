@@ -11,7 +11,6 @@
 #define I2C_SCL 15
 #define endereco 0x3C
 #define ADC_PIN 28 // GPIO para o voltímetro
-#define Botao_A 5  // GPIO para botão A
 
 int R_conhecido = 9800;   // Resistor de 10k ohm
 float R_x = 0.0;           // Resistor desconhecido
@@ -40,10 +39,6 @@ int main()
   gpio_pull_up(botaoB);
   gpio_set_irq_enabled_with_callback(botaoB, GPIO_IRQ_EDGE_FALL, true, &gpio_irq_handler);
   // Aqui termina o trecho para modo BOOTSEL com botão B
-
-  gpio_init(Botao_A);
-  gpio_set_dir(Botao_A, GPIO_IN);
-  gpio_pull_up(Botao_A);
 
   // I2C Initialisation. Using it at 400Khz.
   i2c_init(I2C_PORT, 400 * 1000);
