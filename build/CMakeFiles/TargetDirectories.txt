@@ -1,4 +1,5 @@
 C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/CMakeFiles/Teste_Voltimetro.dir
+C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/CMakeFiles/Teste_Voltimetro_ws2818b_pio_h.dir
 C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/CMakeFiles/edit_cache.dir
 C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/CMakeFiles/rebuild_cache.dir
 C:/Users/rian_/OneDrive/Área de Trabalho/TrabalhoSE_BJL_02_Rian_de_Sena_Mendes/build/pico-sdk/CMakeFiles/edit_cache.dir

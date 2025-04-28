@@ -3,16 +3,19 @@
 #include "pico/stdlib.h"
 #include "hardware/adc.h"
 #include "hardware/i2c.h"
+#include "hardware/pio.h"
 #include "lib/ssd1306.h"
 #include "lib/font.h"
+#include "lib/matriz_led.h"
 #include <math.h> // Inclusão da biblioteca math.h para usar a função pow()
+
 #define I2C_PORT i2c1
 #define I2C_SDA 14
 #define I2C_SCL 15
 #define endereco 0x3C
 #define ADC_PIN 28 // GPIO para o voltímetro
 
-int R_conhecido = 9850;    // Ajuste o valor do resistor conhecido (10K) para o valor real
+int R_conhecido = 9650;    // Ajuste o valor do resistor conhecido (10K) para o valor real
 float R_x = 0.0;           // Resistor desconhecido
 float ADC_VREF = 3.31;     // Tensão de referência do ADC
 int ADC_RESOLUTION = 4095; // Resolução do ADC (12 bits)
@@ -61,6 +64,8 @@ int main()
 
   adc_init();
   adc_gpio_init(ADC_PIN); // GPIO 28 como entrada analógica
+
+  npInit(LED_PIN); // Inicializa matriz de LED
 
   float tensao;
   char str_x[5]; // Buffer para armazenar a string
@@ -146,6 +151,8 @@ int main()
     ssd1306_draw_string(&ssd, cor1, 9, 30);
     ssd1306_draw_string(&ssd, cor2, 9, 39);
     ssd1306_draw_string(&ssd, cor3, 9, 48);
+
+    printResistorColors(faixa1, faixa2, faixa3); // Chama a função de desenhar na matriz
 
     // Desenha resistor no display
     ssd1306_rect(&ssd, 32, 80, 10, 20, cor, !cor);  // Desenha um retângulo
